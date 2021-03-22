@@ -1,0 +1,154 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+#title{
+    background-color: #ff4c68;
+    color: white;
+}
+
+h2.Testi{
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: 'Montserrat';
+    line-height: 1.5;
+    padding-bottom: 8px;
+
+}
+.head{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+.phone{
+    width: 60%;
+    transform: rotate(25deg);
+    /* padding-top: 10px; */
+    position: absolute;
+    right: 30%;
+    
+}
+/* Navigation bar */
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0,18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+}
+.style-button{
+    margin: 5% 3% 5% 0;
+}
+/* features styling */
+#features{
+padding: 7% 15%;
+background-color: white;
+position: relative;
+z-index: 1;
+}
+
+.fa-bullseye:hover{
+    color: red;
+    margin-bottom: 1rem;
+}
+.fa-heart:hover{
+    color: red;
+    margin-bottom: 1rem;
+
+}
+.fa-check-circle:hover{
+    color: red;
+    margin-bottom: 1rem;
+
+}
+.feature{
+    font-weight: bold;
+}
+.pic{
+    color: #ef8172;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+/* testimonials section */
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #ffffff;
+}
+.testi-image{
+    width: 100px;
+    border-radius: 100%;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-img{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    /* this is done bcoz the prev and the next buttons are very close to the text so we remove the padding form the testimonials and aplly it on the text inside the caorasle so that the buttons are towards the ends of the text */
+    padding: 7% 15%;
+}
+/* pricing section */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-col{
+    padding: 3% 2%;
+}
+/* FOR MAKING THE WEBSITE MOBILE FREINDLY WE USE MEDIA */
+@media(max-width: 1028px){
+    .title1{
+        text-align: center;
+    }
+    .phone{
+        position: static;
+        transform: rotate(0deg);
+}
+}
+/* CTA section */
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+    
+}
+.cta-text{
+    font-size: 3.5rem;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: white;
+    line-height: 1.5;
+    padding: 5% 0%;
+}
+/* Footer section */
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+.foot-btn{
+    margin: 20px 10px;
+}
